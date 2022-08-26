@@ -1,0 +1,174 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  font-size: 62.5%; /*to use a 10 based system instead of 16*/
+}
+
+body {
+  font-size: 1.6rem;
+}
+/*now 25px is 2.5rem etc*/
+
+header {
+  background: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: start;
+}
+
+#heading {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  background: #d6d6d6;
+}
+
+.Test {
+  font-weight: bold;
+  text-align: left;
+  font-size: 5rem;
+}
+
+#submitButton {
+  background: #22bce0;
+  width: 139px;
+  height: 5rem;
+  left: 1421px;
+  top: 413px;
+  border: none;
+  border-radius: 5px;
+
+  background: #22bce0;
+  margin-top: 30px;
+}
+
+#playerCardsList {
+  display: flex;
+}
+
+.inputBoxes {
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border: none;
+  height: 25px;
+}
+
+.formPart {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 30px;
+}
+
+.playersDiv {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  margin-left: 15px;
+  margin-bottom: 20px;
+}
+
+.regionPart {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding-right: 20px;
+}
+
+.cardContainer {
+  width: 250px;
+  height: 320px;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin: 10px;
+  overflow-wrap: break-word;
+}
+
+.cardContainer:hover {
+  transition: transform 0.1s;
+  transform: translate(-5px, -5px);
+  box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.25);
+}
+
+.secondHeader {
+  font-family: "Righteous";
+  font-style: normal;
+  font-weight: 400;
+  color: black;
+  margin-bottom: 20px;
+  text-align: left;
+  margin-left: 10px;
+}
+
+#secondheadercontainer {
+  display: flex;
+  justify-content: center;
+}
+
+.Image {
+  width: 100px;
+  height: 100px;
+  left: 166px;
+  top: 766px;
+  margin-top: 10px;
+}
+
+.formText {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: left;
+  margin-bottom: 6px;
+}
+
+.dropDown {
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  height: 20px;
+  margin-left: 10px;
+}
+
+.cardTitle {
+  font-weight: bold;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.cardContainers {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 70px;
+}
+
+.dropDownRoles {
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  height: 24px;
+  margin-left: 10px;
+  margin-top: 7px;
+  border: none;
+  width: 90px;
+  margin-right: 20px;
+}
+
+.resultContainers {
+  display: flex;
+  justify-content: center;
+}
+
+#buttonDiv {
+  padding-bottom: 50px;
+}
